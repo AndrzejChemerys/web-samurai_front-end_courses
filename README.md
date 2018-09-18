@@ -45,6 +45,11 @@
 
 **Section 5. Transition and transform** :heavy_check_mark:
 * Clock
+
+> Screenshot of "Clock" animation
+
+![attached screenshot of passed materials - clock](img_final_scrn/zegar.jpg)    <br/><br/>
+
 * Button animation with span
 * Button animation with after pseudoselector
 * Button animation with color changing
@@ -62,10 +67,14 @@
 * Button slide animation challenge
 * Button text animation challenge
 * Disco challenge
-
 * Three dots animation
 * Three dots with span animation
 * Banner with changing pictures
+
+- - -
+
+**Section 7. Animation projects** :heavy_check_mark:
+
 * Pong animation challenge
 * Walking man animation
 * Bell animation
@@ -73,6 +82,6 @@
 
 - - -
 
-**Section 7. Flexbox**
+**Section 8. Flexbox**
 
 In progress..
