@@ -19,4 +19,20 @@
 * Variables
 * Header and nav
 
+** Section 3. Placing elements on a web page** :heavy_check_mark:
+* Old Japan Picture challenge
+* Chessdesk with inline block
+* Chessdesk with float
+* Chessdesk with position
+* Project with Font Awesome and Media Queries
+
+** Section 4. Animation with CSS** :heavy_check_mark:
+* Transition
+* Colors challenge
+* Moving square challenge
+* Transform
+* Centering elements challenge
+* Moving line challenge
+* Building a house challenge
+
 In progress..
