@@ -3,7 +3,7 @@
 
 - - -
 
-** Section 1. CSS fundamentals. Part 1** :heavy_check_mark:
+**Section 1. CSS fundamentals. Part 1** :heavy_check_mark:
 * Cascading Style Sheets
 * CSS selectors 
 * Fonts
@@ -11,7 +11,7 @@
 
 - - -
 
-** Section 2. CSS fundamentals. Part 2** :heavy_check_mark:
+**Section 2. CSS fundamentals. Part 2** :heavy_check_mark:
 * Backgrounds
 * Boxmodel
 * Position 
@@ -23,7 +23,7 @@
 
 - - -
 
-** Section 3. Placing elements on a web page** :heavy_check_mark:
+**Section 3. Placing elements on a web page** :heavy_check_mark:
 * Old Japan Picture challenge
 * Chessdesk with inline block
 * Chessdesk with float
@@ -32,7 +32,7 @@
 
 - - -
 
-** Section 4. Animation with CSS** :heavy_check_mark:
+**Section 4. Animation with CSS** :heavy_check_mark:
 * Transition
 * Colors challenge
 * Moving square challenge
@@ -43,7 +43,7 @@
 
 - - -
 
-** Section 5. Transition and transform** :heavy_check_mark:
+**Section 5. Transition and transform** :heavy_check_mark:
 * Clock
 * Button animation with span
 * Button animation with after pseudoselector
@@ -55,7 +55,7 @@
 
 - - -
 
-** Section 6. Animation properties** :heavy_check_mark:
+**Section 6. Animation properties** :heavy_check_mark:
 * Project sun
 * Button shaking
 * Button transition
@@ -73,6 +73,6 @@
 
 - - -
 
-** Section 7. Flexbox**
+**Section 7. Flexbox**
 
 In progress..
