@@ -1,0 +1,112 @@
+<!-- Ustaw trzy kolumny za pomocą flex - max dla sekcji obejmującej 3 kolumny to 1200px -->
+<!-- Każda kolumna też ma byc kontenerem flex. Kolumny powinny mieć 25% szerokości rodzica, między kolumnami powinny być odstępy-->
+<!-- Cena zawsze na dole i obramowana -->
+<!-- link: https://websamuraj.pl/examples/fez/cennik.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cennik - wieczory panieńskie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        
+        h1 {
+            text-transform: uppercase;
+            padding: 25px;
+        }
+    
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+/*            align-items: center;*/
+            justify-content: space-around;
+            min-height: 75vh;
+            width: 1200px;
+        }
+        
+        div {
+            flex-basis: 25%;
+            background-color: #ddd;
+            border: solid black 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: stretch;
+            
+        }
+        
+        h2 {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .price {
+            background-color: #f7f6f6;
+            border: 1px solid #7b6969;
+            align-self: center;
+            flex-basis: 10%;
+            width: 80%;
+            
+        }
+        
+        span {
+            
+            
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <h1>Wieczór panieński - zaproś naszego trola!</h1>
+    <section>
+        <div class="col">
+            <h2>Opcja 1</h2>
+            <img src="1.png" alt="">
+            <p>(bardzo) Tanio</p>
+            <p class="price"><span>100 dutków</span></p>
+        </div>
+        <div class="col">
+            <h2>Opcja 2</h2>
+            <img src="2.png" alt="">
+            <p>Średnio Tanio</p>
+            <p>Wielka pałka w zestawie</p>
+            <p class="price"><span>300 dutków</span></p>
+        </div>
+        <div class="col">
+            <h2>Opcja 3</h2>
+            <img src="3.png" alt="">
+            <p>Niezbyt tanio</p>
+            <p>Duża moc (wytrzyma noc)</p>
+            <p>Przystojny (jak na trola)</p>
+            <p class="price"><span>500 dutków</span></p>
+        </div>
+
+    </section>
+</body>
+
+</html>
