@@ -49,8 +49,6 @@ $('.interface').on("click", function () {
 
 
 
-
-
  // if (this.classList.contains("green")) {
  //  console.log("prawda w zielony")
  // }
