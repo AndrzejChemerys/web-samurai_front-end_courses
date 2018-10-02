@@ -23,6 +23,7 @@ nav {
 .arrow.on {
     bottom: 310px;
     transform: rotate(180deg);
+    background-color: #ddd;
 }
 
 nav.on {
