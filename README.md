@@ -82,6 +82,22 @@
 
 - - -
 
-**Section 8. Flexbox**
+**Section 8. Flexbox** :heavy_check_mark:
 
 In progress..
+
+**Section 9. Flexbox, CSS Grid and Responsive Web Design** :heavy_check_mark:
+
+**Section 10. JavaScript in web design** :heavy_check_mark:
+
+**Section 11. JavaScript Projects** :heavy_check_mark:
+
+**Section 12. jQuery basics** :heavy_check_mark:
+
+**Section 13. Burger menu** :heavy_check_mark:
+
+**Section 14. Popup (modal)** :heavy_check_mark:
+
+**Section 15. Slider (banner) and galery with JS, jQ and Flexbox** :heavy_check_mark:
+
+**Section 17. SASS basics** :heavy_check_mark:
