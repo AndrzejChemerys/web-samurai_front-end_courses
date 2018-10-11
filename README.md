@@ -84,9 +84,16 @@
 
 **Section 8. Flexbox** :heavy_check_mark:
 
-In progress..
-
 **Section 9. Flexbox, CSS Grid and Responsive Web Design** :heavy_check_mark:
+
+* Project calculator with Flexbox
+* Project calculator with spaces beetween
+* RWD with media queries
+* Galery with Flexbox
+* Flexbox layout
+* Layout with flexbox and media queries
+* Layout with CSS Grid
+* Pricelist with CSS Grid
 
 **Section 10. JavaScript in web design** :heavy_check_mark:
 
