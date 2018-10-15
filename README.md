@@ -48,7 +48,7 @@
 
 > Screenshot of "Clock" animation
 
-![attached screenshot of passed materials - clock](img_final_scrn/sections_1-5/zegar.jpg)    <br/><br/>
+![attached screenshot of passed materials - clock](advanced_front-end_course/img_final_scrn/sections_1-5/zegar.jpg)    <br/><br/>
 
 * Button animation with span
 * Button animation with after pseudoselector
