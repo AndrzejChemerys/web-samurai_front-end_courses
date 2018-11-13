@@ -213,7 +213,7 @@
 
 > Screenshot of "Changing text style with buttons"
 
-![attached screenshot of passed materials - changing text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_16+/12-3.jpg)    <br/><br/>
+![attached screenshot of passed materials - changing text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/12-3.jpg)    <br/><br/>
 
 * JQ properties and methods for DOM
 * BG changing after button click
