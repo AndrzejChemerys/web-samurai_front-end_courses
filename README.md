@@ -84,7 +84,7 @@
 
 > Screenshot of "Raising sun"
 
-![attached screenshot of passed materials - sun](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/6-1.jpg)    <br/><br/>
+![attached screenshot of passed materials - sun](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-1.jpg)    <br/><br/>
 
 * Button shaking
 * Button transition
@@ -94,7 +94,7 @@
 
 > Screenshot of "Disco"
 
-![attached screenshot of passed materials - disco](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/6-6.jpg)    <br/><br/>
+![attached screenshot of passed materials - disco](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-6.jpg)    <br/><br/>
 
 * Three dots animation
 * Three dots with span animation
@@ -102,11 +102,11 @@
 
 > Screenshot of "Changing banner"
 
-![attached screenshot of passed materials - baner](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/6-9.jpg)    <br/><br/>
+![attached screenshot of passed materials - baner](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-9.jpg)    <br/><br/>
 
 > Screenshot of "Banner with text"
 
-![attached screenshot of passed materials - banner with text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/6-10.jpg)    <br/><br/>
+![attached screenshot of passed materials - banner with text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-10.jpg)    <br/><br/>
 
 - - -
 
@@ -116,19 +116,19 @@
 
 > Screenshot of "Pong"
 
-![attached screenshot of passed materials - pong](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/7-11.jpg)    <br/><br/>
+![attached screenshot of passed materials - pong](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-11.jpg)    <br/><br/>
 
 * Walking man animation
 
 > Screenshot of "Moving man"
 
-![attached screenshot of passed materials - moving man](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/7-12.jpg)    <br/><br/>
+![attached screenshot of passed materials - moving man](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-12.jpg)    <br/><br/>
 
 * Bell animation
 
 > Screenshot of "Bell"
 
-![attached screenshot of passed materials - bell](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/bell.jpg)    <br/><br/>
+![attached screenshot of passed materials - bell](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/bell.jpg)    <br/><br/>
 
 * Arrow animation
 
@@ -150,39 +150,39 @@
 
 > Screenshot of "Calc"
 
-![attached screenshot of passed materials - clock](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/9-1.jpg)    <br/><br/>
+![attached screenshot of passed materials - clock](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-1.jpg)    <br/><br/>
 
 * Project calculator with spaces beetween
 
 > Screenshot of "Calculator"
 
-![attached screenshot of passed materials - calculator](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/9-2.jpg)    <br/><br/>
+![attached screenshot of passed materials - calculator](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-2.jpg)    <br/><br/>
 
 * RWD with media queries
 
 > Screenshot of "RWD"
 
-![attached screenshot of passed materials - rwd](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/9-3.jpg)    <br/><br/>
+![attached screenshot of passed materials - rwd](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-3.jpg)    <br/><br/>
 
 * Galery with Flexbox
 
 > Screenshot of "Galery"
 
-![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/9-4.jpg)    <br/><br/>
+![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-4.jpg)    <br/><br/>
 
 * Flexbox layout
 * Layout with flexbox and media queries
 
 > Screenshot of "Flexbox layout"
 
-![attached screenshot of passed materials - flexbox layout](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/9-6.jpg)    <br/><br/>
+![attached screenshot of passed materials - flexbox layout](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-6.jpg)    <br/><br/>
 
 * Layout with CSS Grid
 * Pricelist with CSS Grid
 
 > Screenshot of "Pricelist"
 
-![attached screenshot of passed materials - pricelist](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/9-8.jpg)    <br/><br/>
+![attached screenshot of passed materials - pricelist](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-8.jpg)    <br/><br/>
 
 - - -
 
@@ -213,7 +213,7 @@
 
 > Screenshot of "Changing text style with buttons"
 
-![attached screenshot of passed materials - changing text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/12-3.jpg)    <br/><br/>
+![attached screenshot of passed materials - changing text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_16+/12-3.jpg)    <br/><br/>
 
 * JQ properties and methods for DOM
 * BG changing after button click
@@ -230,7 +230,7 @@
 
 > Screenshot of "Burger menu on webpage"
 
-![attached screenshot of passed materials - burger](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/13-5.jpg)    <br/><br/>
+![attached screenshot of passed materials - burger](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/13-5.jpg)    <br/><br/>
 
 * Project: Burger menu sliding from top
 * Project: Burger menu at the bottom with JS
@@ -243,18 +243,18 @@
 
 > Screenshot of "Pop-up with JQ"
 
-![attached screenshot of passed materials - pop-up](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/14-1a.jpg)    <br/><br/>
+![attached screenshot of passed materials - pop-up](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-1a.jpg)    <br/><br/>
 
 > Screenshot of "Pop-up after click"
 
-![attached screenshot of passed materials - pop-up after click](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/14-1b.jpg)    <br/><br/>
+![attached screenshot of passed materials - pop-up after click](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-1b.jpg)    <br/><br/>
 
 *Project: Menu scrolling to some point with animation
 *Project: Sidebar showing scroll position
 
 > Screenshot of "Scroll position"
 
-![attached screenshot of passed materials - scroll position](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/14-3.jpg)    <br/><br/>
+![attached screenshot of passed materials - scroll position](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-3.jpg)    <br/><br/>
 
 *Project: Sidebar showing section and scroll position with JQ
 *Project: Sidebar showing section and scroll position with JS
@@ -263,7 +263,7 @@
 
 > Screenshot of "Webpage animated with scroll position"
 
-![attached screenshot of passed materials - animated webpage](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/14-6.jpg)    <br/><br/>
+![attached screenshot of passed materials - animated webpage](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-6.jpg)    <br/><br/>
 
 - - -
 
@@ -273,25 +273,25 @@
 
 > Screenshot of "Slider with animation"
 
-![attached screenshot of passed materials - slider](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/15-1.jpg)    <br/><br/>
+![attached screenshot of passed materials - slider](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-1.jpg)    <br/><br/>
 
 *Project: Slider with animation JS
 
 > Screenshot of "Slider with animation and JS"
 
-![attached screenshot of passed materials - slider JS](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/15-2.jpg)    <br/><br/>
+![attached screenshot of passed materials - slider JS](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-2.jpg)    <br/><br/>
 
 *Project: Galery with pop-up
 
 > Screenshot of "Pop-up galery"
 
-![attached screenshot of passed materials - pop-up galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/15-4.jpg)    <br/><br/>
+![attached screenshot of passed materials - pop-up galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-4.jpg)    <br/><br/>
 
 *Project: Pop-up galery with Lightbox
 
 > Screenshot of "Galery"
 
-![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/15-5.jpg)    <br/><br/>
+![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-5.jpg)    <br/><br/>
 
 - - -
 
@@ -301,7 +301,7 @@
 
 > Screenshot of "Webpage navigation"
 
-![attached screenshot of passed materials - web page nav](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/16-1.jpg)    <br/><br/>
+![attached screenshot of passed materials - web page nav](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/16-1.jpg)    <br/><br/>
 
 * Practicing SASS
 * Menu with SASS
