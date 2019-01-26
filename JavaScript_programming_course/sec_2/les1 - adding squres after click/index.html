@@ -25,7 +25,8 @@
         .circle {
             background-color: azure;
             border-radius: 50%;
-            color: black 2px solid;
+            color: black;
+            border: 2px solid black;
         }
     </style>
 </head>
@@ -35,16 +36,29 @@
     <script>
         const btn = document.querySelector("button");
         let number = 1;
+        let activeNumber =1;
 
         const addElement = function() {      
-            let number = "wewnatrz funkcji"      
+            // let number = "wewnatrz funkcji"      
             const div = document.createElement("div")
             div.textContent = number;
+
+            // if (number%5 == 0) {
+            //     div.classList.add("circle")
+            // }
+            console.log(activeNumber)
+
+            if (activeNumber == 5) {
+                activeNumber = 0;
+                div.classList.add("circle");
+            }
+
             document.body.appendChild(div);
             number++; //inkrementacja
-            console.log(number);
+            activeNumber++
+            // console.log(number);
         }
-
+        
         btn.addEventListener("click", addElement);
     </script>
 </body>
