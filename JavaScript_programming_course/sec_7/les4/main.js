@@ -5,6 +5,7 @@ const messages = ["super", "działa!"]
 passwords.forEach((password, index) => {
  passwords[index] = password.toLowerCase();
  console.log(passwords[index]);
+ console.log(passwords);
 })
 
 const showMessage = (e) => {
