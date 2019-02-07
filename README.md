@@ -1,5 +1,5 @@
 # advanced_front-end_course
-## Advanced Front-End Course from Udemy.  ("Front-end zaawansowany w 15 dni").
+## Advanced Front-End Course from Udemy.  ("Front-end zaawansowany w 15 dni"). :heavy_check_mark:
 
 - - -
 
