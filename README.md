@@ -151,7 +151,7 @@ width="60%">
 
 > Screenshot of "Bell"
 
-<img alt="attached screenshot of passed materials - bell" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/bell.jpg" 
+<img alt="attached screenshot of passed materials - bell" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-13.jpg" 
 width="60%">
 <br/><br/>
 
