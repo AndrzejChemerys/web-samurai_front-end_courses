@@ -76,7 +76,9 @@ width="60%">
 
 > Screenshot of "Clock" animation
 
-![attached screenshot of passed materials - clock](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/zegar.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - clock" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/zegar.jpg" 
+width="60%">
+<br/><br/>
 
 * Button animation with span
 * Button animation with after pseudoselector
@@ -93,7 +95,9 @@ width="60%">
 
 > Screenshot of "Raising sun"
 
-![attached screenshot of passed materials - sun](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-1.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - sun" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-1.jpg" 
+width="60%">
+<br/><br/>
 
 * Button shaking
 * Button transition
@@ -103,7 +107,9 @@ width="60%">
 
 > Screenshot of "Disco"
 
-![attached screenshot of passed materials - disco](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-6.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - disco" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-6.jpg" 
+width="60%">
+<br/><br/>
 
 * Three dots animation
 * Three dots with span animation
@@ -111,11 +117,15 @@ width="60%">
 
 > Screenshot of "Changing banner"
 
-![attached screenshot of passed materials - baner](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-9.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - baner" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-9.jpg" 
+width="60%">
+<br/><br/>
 
 > Screenshot of "Banner with text"
 
-![attached screenshot of passed materials - banner with text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-10.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - banner with text" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-10.jpg" 
+width="60%">
+<br/><br/>
 
 - - -
 
@@ -125,19 +135,25 @@ width="60%">
 
 > Screenshot of "Pong"
 
-![attached screenshot of passed materials - pong](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-11.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - pong" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-11.jpg" 
+width="60%">
+<br/><br/>
 
 * Walking man animation
 
 > Screenshot of "Moving man"
 
-![attached screenshot of passed materials - moving man](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-12.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - moving man" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-12.jpg" 
+width="60%">
+<br/><br/>
 
 * Bell animation
 
 > Screenshot of "Bell"
 
-![attached screenshot of passed materials - bell](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/bell.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - bell" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/bell.jpg" 
+width="60%">
+<br/><br/>
 
 * Arrow animation
 
