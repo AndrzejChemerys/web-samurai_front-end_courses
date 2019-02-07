@@ -28,13 +28,17 @@
 
 > Screenshot of "Japan"
 
-![attached screenshot of passed materials - Japan](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/japan.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Japan" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/japan.jpg" 
+width="60%">
+<br/><br/>
 
 * Chessdesk with inline block
 
 > Screenshot of "Chessdesk"
 
-![attached screenshot of passed materials - chess](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/chess.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - chess" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/chess.jpg" 
+width="60%">
+<br/><br/>
 
 * Chessdesk with float
 * Chessdesk with position
@@ -49,7 +53,9 @@
 
 > Screenshot of "Line with square"
 
-![attached screenshot of passed materials - line](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/linia2.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - line" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/linia2.jpg" 
+width="60%">
+<br/><br/>
 
 * Transform
 * Centering elements challenge
@@ -58,7 +64,9 @@
 
 > Screenshot of "House"
 
-![attached screenshot of passed materials - house](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/domek2.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - house" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/domek2.jpg" 
+width="60%">
+<br/><br/>
 
 - - -
 
