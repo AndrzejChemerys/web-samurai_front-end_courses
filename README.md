@@ -1,5 +1,6 @@
 # advanced_front-end_course
-## Advanced Front-End Course from Udemy.  ("Front-end zaawansowany w 15 dni").
+## Advanced Front-End Course from Udemy.  
+## ("Front-end zaawansowany w 15 dni"). :heavy_check_mark:
 
 - - -
 
@@ -28,13 +29,17 @@
 
 > Screenshot of "Japan"
 
-![attached screenshot of passed materials - Japan](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/japan.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Japan" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/japan.jpg" 
+width="60%">
+<br/><br/>
 
 * Chessdesk with inline block
 
 > Screenshot of "Chessdesk"
 
-![attached screenshot of passed materials - chess](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/chess.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - chess" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/chess.jpg" 
+width="60%">
+<br/><br/>
 
 * Chessdesk with float
 * Chessdesk with position
@@ -49,7 +54,9 @@
 
 > Screenshot of "Line with square"
 
-![attached screenshot of passed materials - line](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/linia2.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - line" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/linia2.jpg" 
+width="60%">
+<br/><br/>
 
 * Transform
 * Centering elements challenge
@@ -58,7 +65,9 @@
 
 > Screenshot of "House"
 
-![attached screenshot of passed materials - house](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/domek2.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - house" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/domek2.jpg" 
+width="60%">
+<br/><br/>
 
 - - -
 
@@ -67,7 +76,9 @@
 
 > Screenshot of "Clock" animation
 
-![attached screenshot of passed materials - clock](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/zegar.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - clock" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/zegar.jpg" 
+width="60%">
+<br/><br/>
 
 * Button animation with span
 * Button animation with after pseudoselector
@@ -84,7 +95,9 @@
 
 > Screenshot of "Raising sun"
 
-![attached screenshot of passed materials - sun](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-1.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - sun" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-1.jpg" 
+width="60%">
+<br/><br/>
 
 * Button shaking
 * Button transition
@@ -94,7 +107,9 @@
 
 > Screenshot of "Disco"
 
-![attached screenshot of passed materials - disco](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-6.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - disco" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-6.jpg" 
+width="60%">
+<br/><br/>
 
 * Three dots animation
 * Three dots with span animation
@@ -102,11 +117,15 @@
 
 > Screenshot of "Changing banner"
 
-![attached screenshot of passed materials - baner](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-9.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - baner" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-9.jpg" 
+width="60%">
+<br/><br/>
 
 > Screenshot of "Banner with text"
 
-![attached screenshot of passed materials - banner with text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-10.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - banner with text" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-10.jpg" 
+width="60%">
+<br/><br/>
 
 - - -
 
@@ -116,19 +135,25 @@
 
 > Screenshot of "Pong"
 
-![attached screenshot of passed materials - pong](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-11.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - pong" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-11.jpg" 
+width="60%">
+<br/><br/>
 
 * Walking man animation
 
 > Screenshot of "Moving man"
 
-![attached screenshot of passed materials - moving man](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-12.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - moving man" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-12.jpg" 
+width="60%">
+<br/><br/>
 
 * Bell animation
 
 > Screenshot of "Bell"
 
-![attached screenshot of passed materials - bell](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/bell.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - bell" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-13.jpg" 
+width="60%">
+<br/><br/>
 
 * Arrow animation
 
