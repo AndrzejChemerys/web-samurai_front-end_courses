@@ -1,6 +1,6 @@
 # web-samurai_front-end_courses
 ## Web samurai path.
-## (Projekt od podstaw do front-end developera. Ścieżka Samuraj Programowania. Bartek Borowczyk).
+## [PL: Projekt od podstaw do front-end developera. Ścieżka Samuraj Programowania. Autor kursu - Bartek Borowczyk]
 
 - - -
 
