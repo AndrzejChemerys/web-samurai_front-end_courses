@@ -1,6 +1,11 @@
-# advanced_front-end_course
-## Advanced Front-End Course from Udemy.  
-## ("Front-end zaawansowany w 15 dni"). :heavy_check_mark:
+# web-samurai_front-end_courses
+## Web samurai path.
+## (Projekt od podstaw do front-end developera. Ścieżka Samuraj Programowania. Bartek Borowczyk).
+
+- - -
+
+### Advanced Front-End Course from Udemy.  
+### ("Front-end zaawansowany w 15 dni"). :heavy_check_mark:
 
 - - -
 
