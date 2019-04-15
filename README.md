@@ -10,22 +10,12 @@
 - - -
 
 **Section 1. CSS fundamentals. Part 1** :heavy_check_mark:
-* Cascading Style Sheets
-* CSS selectors 
-* Fonts
-* Units
+* Cascading Style Sheets | CSS selectors | Fonts | Units;
 
 - - -
 
 **Section 2. CSS fundamentals. Part 2** :heavy_check_mark:
-* Backgrounds
-* Boxmodel
-* Position 
-* Display 
-* Normalize & reset
-* Calc
-* Variables
-* Header and nav
+* Backgrounds | Boxmodel | Position | Display | Normalize & reset | Calc | Variables | Header and nav;
 
 - - -
 
@@ -46,16 +36,12 @@ width="60%">
 width="60%">
 <br/><br/>
 
-* Chessdesk with float
-* Chessdesk with position
-* Project with Font Awesome and Media Queries
+* Chessdesk with float | Chessdesk with position | Project with Font Awesome and Media Queries;
 
 - - -
 
 **Section 4. Animation with CSS** :heavy_check_mark:
-* Transition
-* Colors challenge
-* Moving square challenge
+* Transition; Colors challenge; Moving square challenge;
 
 > Screenshot of "Line with square"
 
@@ -63,10 +49,7 @@ width="60%">
 width="60%">
 <br/><br/>
 
-* Transform
-* Centering elements challenge
-* Moving line challenge
-* Building a house challenge
+* Transform | Centering elements challenge | Moving line challenge | Building a house challenge;
 
 > Screenshot of "House"
 
@@ -86,12 +69,12 @@ width="60%">
 <br/><br/>
 
 * Button animation with span
-* Button animation with after pseudoselector
-* Button animation with color changing
-* Button with double animation
-* Button with triangle
-* Button hover challenge
-* Button with click and jQuery
+| Button animation with after pseudoselector
+| Button animation with color changing
+| Button with double animation
+| Button with triangle
+| Button hover challenge
+| Button with click and jQuery;
 
 - - -
 
@@ -105,10 +88,10 @@ width="60%">
 <br/><br/>
 
 * Button shaking
-* Button transition
-* Button slide animation challenge
-* Button text animation challenge
-* Disco challenge
+| Button transition
+| Button slide animation challenge
+| Button text animation challenge
+| Disco challenge;
 
 > Screenshot of "Disco"
 
@@ -117,8 +100,8 @@ width="60%">
 <br/><br/>
 
 * Three dots animation
-* Three dots with span animation
-* Banner with changing pictures
+| Three dots with span animation
+| Banner with changing pictures;
 
 > Screenshot of "Changing banner"
 
@@ -167,10 +150,10 @@ width="60%">
 **Section 8. Flexbox** :heavy_check_mark:
 
 * Flexbox basics
-* Flexbox properties
-* Flexbox container
-* Flexbox properties practice
-* Flexbox model
+| Flexbox properties
+| Flexbox container
+| Flexbox properties practice
+| Flexbox model;
 
 - - -
 
@@ -201,14 +184,14 @@ width="60%">
 ![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-4.jpg)    <br/><br/>
 
 * Flexbox layout
-* Layout with flexbox and media queries
+| Layout with flexbox and media queries;
 
 > Screenshot of "Flexbox layout"
 
 ![attached screenshot of passed materials - flexbox layout](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-6.jpg)    <br/><br/>
 
 * Layout with CSS Grid
-* Pricelist with CSS Grid
+| Pricelist with CSS Grid;
 
 > Screenshot of "Pricelist"
 
@@ -219,57 +202,57 @@ width="60%">
 **Section 10. JavaScript in web design** :heavy_check_mark:
 
 * JS basics
-* Variables
-* Types of variables
-* JS events
+| Variables
+| Types of variables
+| JS events;
 
 - - -
 
 **Section 11. JavaScript Projects** :heavy_check_mark:
 
 * Working with JS
-* Font size changing after click project
-* Color change after clicking on div element project
-* Rotating square
-* Adding square after click project
+| Font size changing after click project
+| Color change after clicking on div element project
+| Rotating square
+| Adding square after click project;
 
 - - -
 
 **Section 12. jQuery basics** :heavy_check_mark:
 
 * Adding square with button with JQ
-* JQ basics
-* Practicing JQ
+| JQ basics
+| Practicing JQ;
 
 > Screenshot of "Changing text style with buttons"
 
 ![attached screenshot of passed materials - changing text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/12-3.jpg)    <br/><br/>
 
 * JQ properties and methods for DOM
-* BG changing after button click
+| BG changing after button click;
 
 - - -
 
 **Section 13. Burger menu** :heavy_check_mark:
 
 * Project: Side burger menu with hover 
-* Project: Sliding butger menu after click
-* Project: Burger icon
-* Project: Burger menu with JQ
-* Project: Integration burger to webpage
+| Project: Sliding butger menu after click
+| Project: Burger icon
+| Project: Burger menu with JQ
+| Project: Integration burger to webpage;
 
 > Screenshot of "Burger menu on webpage"
 
 ![attached screenshot of passed materials - burger](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/13-5.jpg)    <br/><br/>
 
 * Project: Burger menu sliding from top
-* Project: Burger menu at the bottom with JS
+| Project: Burger menu at the bottom with JS
 
 - - -
 
 **Section 14. Popup (modal)** :heavy_check_mark:
 
-*Project: Pop-up with JQ
+* Project: Pop-up with JQ
 
 > Screenshot of "Pop-up with JQ"
 
@@ -279,17 +262,17 @@ width="60%">
 
 ![attached screenshot of passed materials - pop-up after click](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-1b.jpg)    <br/><br/>
 
-*Project: Menu scrolling to some point with animation
-*Project: Sidebar showing scroll position
+* Project: Menu scrolling to some point with animation
+| Project: Sidebar showing scroll position
 
 > Screenshot of "Scroll position"
 
 ![attached screenshot of passed materials - scroll position](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-3.jpg)    <br/><br/>
 
-*Project: Sidebar showing section and scroll position with JQ
-*Project: Sidebar showing section and scroll position with JS
-*Project: Showing elements with scrolling
-*Project: Showing elements with JQ
+* Project: Sidebar showing section and scroll position with JQ
+| Project: Sidebar showing section and scroll position with JS
+| Project: Showing elements with scrolling
+| Project: Showing elements with JQ
 
 > Screenshot of "Webpage animated with scroll position"
 
@@ -299,25 +282,25 @@ width="60%">
 
 **Section 15. Slider (banner) and galery with JS, jQ and Flexbox** :heavy_check_mark:
 
-*Project: Slider with animation HTML and CSS
+* Project: Slider with animation HTML and CSS
 
 > Screenshot of "Slider with animation"
 
 ![attached screenshot of passed materials - slider](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-1.jpg)    <br/><br/>
 
-*Project: Slider with animation JS
+* Project: Slider with animation JS
 
 > Screenshot of "Slider with animation and JS"
 
 ![attached screenshot of passed materials - slider JS](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-2.jpg)    <br/><br/>
 
-*Project: Galery with pop-up
+* Project: Galery with pop-up
 
 > Screenshot of "Pop-up galery"
 
 ![attached screenshot of passed materials - pop-up galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-4.jpg)    <br/><br/>
 
-*Project: Pop-up galery with Lightbox
+* Project: Pop-up galery with Lightbox
 
 > Screenshot of "Galery"
 
@@ -334,7 +317,7 @@ width="60%">
 ![attached screenshot of passed materials - web page nav](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/16-1.jpg)    <br/><br/>
 
 * Practicing SASS
-* Menu with SASS
-* Menu with SCSS
+| Menu with SASS
+| Menu with SCSS
 
 - - -
