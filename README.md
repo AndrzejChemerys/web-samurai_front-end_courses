@@ -12,12 +12,10 @@
 **Section 1. CSS fundamentals. Part 1** :heavy_check_mark:
 * Cascading Style Sheets | CSS selectors | Fonts | Units;
 
-- - -
 
 **Section 2. CSS fundamentals. Part 2** :heavy_check_mark:
 * Backgrounds | Boxmodel | Position | Display | Normalize & reset | Calc | Variables | Header and nav;
 
-- - -
 
 **Section 3. Placing elements on a web page** :heavy_check_mark:
 * Old Japan Picture challenge
@@ -38,7 +36,6 @@ width="60%">
 
 * Chessdesk with float | Chessdesk with position | Project with Font Awesome and Media Queries;
 
-- - -
 
 **Section 4. Animation with CSS** :heavy_check_mark:
 * Transition; Colors challenge; Moving square challenge;
@@ -57,7 +54,6 @@ width="60%">
 width="60%">
 <br/><br/>
 
-- - -
 
 **Section 5. Transition and transform** :heavy_check_mark:
 * Clock
@@ -76,7 +72,6 @@ width="60%">
 | Button hover challenge
 | Button with click and jQuery;
 
-- - -
 
 **Section 6. Animation properties** :heavy_check_mark:
 * Project sun
@@ -115,7 +110,6 @@ width="60%">
 width="60%">
 <br/><br/>
 
-- - -
 
 **Section 7. Animation projects** :heavy_check_mark:
 
@@ -145,8 +139,6 @@ width="60%">
 
 * Arrow animation
 
-- - -
-
 **Section 8. Flexbox** :heavy_check_mark:
 
 * Flexbox basics
@@ -154,8 +146,6 @@ width="60%">
 | Flexbox container
 | Flexbox properties practice
 | Flexbox model;
-
-- - -
 
 **Section 9. Flexbox, CSS Grid and Responsive Web Design** :heavy_check_mark:
 
@@ -197,16 +187,12 @@ width="60%">
 
 ![attached screenshot of passed materials - pricelist](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-8.jpg)    <br/><br/>
 
-- - -
-
 **Section 10. JavaScript in web design** :heavy_check_mark:
 
 * JS basics
 | Variables
 | Types of variables
 | JS events;
-
-- - -
 
 **Section 11. JavaScript Projects** :heavy_check_mark:
 
@@ -215,8 +201,6 @@ width="60%">
 | Color change after clicking on div element project
 | Rotating square
 | Adding square after click project;
-
-- - -
 
 **Section 12. jQuery basics** :heavy_check_mark:
 
@@ -230,8 +214,6 @@ width="60%">
 
 * JQ properties and methods for DOM
 | BG changing after button click;
-
-- - -
 
 **Section 13. Burger menu** :heavy_check_mark:
 
@@ -247,8 +229,6 @@ width="60%">
 
 * Project: Burger menu sliding from top
 | Project: Burger menu at the bottom with JS
-
-- - -
 
 **Section 14. Popup (modal)** :heavy_check_mark:
 
@@ -278,8 +258,6 @@ width="60%">
 
 ![attached screenshot of passed materials - animated webpage](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-6.jpg)    <br/><br/>
 
-- - -
-
 **Section 15. Slider (banner) and galery with JS, jQ and Flexbox** :heavy_check_mark:
 
 * Project: Slider with animation HTML and CSS
@@ -305,8 +283,6 @@ width="60%">
 > Screenshot of "Galery"
 
 ![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-5.jpg)    <br/><br/>
-
-- - -
 
 **Section 16. SASS basics** :heavy_check_mark:
 
