@@ -1,11 +1,12 @@
-# web-samurai_front-end_courses
+- - -
 ## Web samurai path.
 ## [PL: Projekt od podstaw do front-end developera. Ścieżka Samuraj Programowania. Autor kursu - Bartek Borowczyk]
 
 - - -
 
-### Advanced Front-End Course from Udemy.  
-### ("Front-end zaawansowany w 15 dni"). :heavy_check_mark:
+### 1. Advanced Front-End Course.  :heavy_check_mark:
+### [PL: "Front-end zaawansowany w 15 dni".
+### Naucz się tworzyć atrakcyjne strony internetowe z wykorzystaniem bardziej zaawansowanych technik CSS i JavaScript.]
 
 - - -
 
@@ -22,17 +23,15 @@
 
 > Screenshot of "Japan"
 
-<img alt="attached screenshot of passed materials - Japan" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/japan.jpg" 
+<img alt="attached screenshot of passed materials - Japan" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/japan.jpg" 
 width="60%">
-<br/><br/>
 
 * Chessdesk with inline block
 
 > Screenshot of "Chessdesk"
 
-<img alt="attached screenshot of passed materials - chess" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/chess.jpg" 
+<img alt="attached screenshot of passed materials - chess" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/chess.jpg" 
 width="60%">
-<br/><br/>
 
 * Chessdesk with float | Chessdesk with position | Project with Font Awesome and Media Queries;
 
@@ -42,27 +41,23 @@ width="60%">
 
 > Screenshot of "Line with square"
 
-<img alt="attached screenshot of passed materials - line" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/linia2.jpg" 
+<img alt="attached screenshot of passed materials - line" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/linia2.jpg" 
 width="60%">
-<br/><br/>
 
 * Transform | Centering elements challenge | Moving line challenge | Building a house challenge;
 
 > Screenshot of "House"
 
-<img alt="attached screenshot of passed materials - house" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/domek2.jpg" 
+<img alt="attached screenshot of passed materials - house" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/domek2.jpg" 
 width="60%">
-<br/><br/>
-
 
 **Section 5. Transition and transform** :heavy_check_mark:
 * Clock
 
 > Screenshot of "Clock" animation
 
-<img alt="attached screenshot of passed materials - clock" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/zegar.jpg" 
+<img alt="attached screenshot of passed materials - clock" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_1-5/zegar.jpg" 
 width="60%">
-<br/><br/>
 
 * Button animation with span
 | Button animation with after pseudoselector
@@ -78,9 +73,8 @@ width="60%">
 
 > Screenshot of "Raising sun"
 
-<img alt="attached screenshot of passed materials - sun" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-1.jpg" 
+<img alt="attached screenshot of passed materials - sun" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-1.jpg" 
 width="60%">
-<br/><br/>
 
 * Button shaking
 | Button transition
@@ -90,9 +84,8 @@ width="60%">
 
 > Screenshot of "Disco"
 
-<img alt="attached screenshot of passed materials - disco" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-6.jpg" 
+<img alt="attached screenshot of passed materials - disco" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-6.jpg" 
 width="60%">
-<br/><br/>
 
 * Three dots animation
 | Three dots with span animation
@@ -100,16 +93,13 @@ width="60%">
 
 > Screenshot of "Changing banner"
 
-<img alt="attached screenshot of passed materials - baner" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-9.jpg" 
+<img alt="attached screenshot of passed materials - baner" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-9.jpg" 
 width="60%">
-<br/><br/>
 
 > Screenshot of "Banner with text"
 
-<img alt="attached screenshot of passed materials - banner with text" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-10.jpg" 
+<img alt="attached screenshot of passed materials - banner with text" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/6-10.jpg" 
 width="60%">
-<br/><br/>
-
 
 **Section 7. Animation projects** :heavy_check_mark:
 
@@ -117,25 +107,22 @@ width="60%">
 
 > Screenshot of "Pong"
 
-<img alt="attached screenshot of passed materials - pong" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-11.jpg" 
+<img alt="attached screenshot of passed materials - pong" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-11.jpg" 
 width="60%">
-<br/><br/>
 
 * Walking man animation
 
 > Screenshot of "Moving man"
 
-<img alt="attached screenshot of passed materials - moving man" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-12.jpg" 
+<img alt="attached screenshot of passed materials - moving man" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-12.jpg" 
 width="60%">
-<br/><br/>
 
 * Bell animation
 
 > Screenshot of "Bell"
 
-<img alt="attached screenshot of passed materials - bell" src="advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-13.jpg" 
+<img alt="attached screenshot of passed materials - bell" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/7-13.jpg" 
 width="60%">
-<br/><br/>
 
 * Arrow animation
 
@@ -153,39 +140,45 @@ width="60%">
 
 > Screenshot of "Calc"
 
-![attached screenshot of passed materials - clock](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-1.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Calc" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-1.jpg" 
+width="60%">
 
 * Project calculator with spaces beetween
 
 > Screenshot of "Calculator"
 
-![attached screenshot of passed materials - calculator](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-2.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Calculator" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-2.jpg" 
+width="60%">
 
 * RWD with media queries
 
 > Screenshot of "RWD"
 
-![attached screenshot of passed materials - rwd](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-3.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - RWD" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-3.jpg" 
+width="60%">
 
 * Galery with Flexbox
 
 > Screenshot of "Galery"
 
-![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-4.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Galery" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-4.jpg" 
+width="60%">
 
 * Flexbox layout
 | Layout with flexbox and media queries;
 
 > Screenshot of "Flexbox layout"
 
-![attached screenshot of passed materials - flexbox layout](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-6.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Flexbox layout" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-6.jpg" 
+width="60%">
 
 * Layout with CSS Grid
 | Pricelist with CSS Grid;
 
 > Screenshot of "Pricelist"
 
-![attached screenshot of passed materials - pricelist](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-8.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Pricelist" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/9-8.jpg" 
+width="60%">
 
 **Section 10. JavaScript in web design** :heavy_check_mark:
 
@@ -210,7 +203,8 @@ width="60%">
 
 > Screenshot of "Changing text style with buttons"
 
-![attached screenshot of passed materials - changing text](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/12-3.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Changing text style with buttons" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/12-3.jpg" 
+width="60%">
 
 * JQ properties and methods for DOM
 | BG changing after button click;
@@ -225,7 +219,9 @@ width="60%">
 
 > Screenshot of "Burger menu on webpage"
 
-![attached screenshot of passed materials - burger](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/13-5.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Burger menu on webpage" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/13-5.jpg" 
+width="60%">
+<br/><br/>
 
 * Project: Burger menu sliding from top
 | Project: Burger menu at the bottom with JS
@@ -236,18 +232,24 @@ width="60%">
 
 > Screenshot of "Pop-up with JQ"
 
-![attached screenshot of passed materials - pop-up](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-1a.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Pop-up with JQ" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-1a.jpg" 
+width="60%">
+<br/><br/>
 
 > Screenshot of "Pop-up after click"
 
-![attached screenshot of passed materials - pop-up after click](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-1b.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Pop-up after click" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-1b.jpg" 
+width="60%">
+<br/><br/>
 
 * Project: Menu scrolling to some point with animation
 | Project: Sidebar showing scroll position
 
 > Screenshot of "Scroll position"
 
-![attached screenshot of passed materials - scroll position](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-3.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Scroll position" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-3.jpg" 
+width="60%">
+<br/><br/>
 
 * Project: Sidebar showing section and scroll position with JQ
 | Project: Sidebar showing section and scroll position with JS
@@ -256,7 +258,9 @@ width="60%">
 
 > Screenshot of "Webpage animated with scroll position"
 
-![attached screenshot of passed materials - animated webpage](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-6.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Webpage animated with scroll position" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/14-6.jpg" 
+width="60%">
+<br/><br/>
 
 **Section 15. Slider (banner) and galery with JS, jQ and Flexbox** :heavy_check_mark:
 
@@ -264,25 +268,33 @@ width="60%">
 
 > Screenshot of "Slider with animation"
 
-![attached screenshot of passed materials - slider](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-1.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Slider with animation" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-1.jpg" 
+width="60%">
+<br/><br/>
 
 * Project: Slider with animation JS
 
 > Screenshot of "Slider with animation and JS"
 
-![attached screenshot of passed materials - slider JS](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-2.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Slider with animation and JS" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-2.jpg" 
+width="60%">
+<br/><br/>
 
 * Project: Galery with pop-up
 
 > Screenshot of "Pop-up galery"
 
-![attached screenshot of passed materials - pop-up galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-4.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Pop-up galery" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-4.jpg" 
+width="60%">
+<br/><br/>
 
 * Project: Pop-up galery with Lightbox
 
 > Screenshot of "Galery"
 
-![attached screenshot of passed materials - galery](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-5.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Galery" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/15-5.jpg" 
+width="60%">
+<br/><br/>
 
 **Section 16. SASS basics** :heavy_check_mark:
 
@@ -290,10 +302,19 @@ width="60%">
 
 > Screenshot of "Webpage navigation"
 
-![attached screenshot of passed materials - web page nav](advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/16-1.jpg)    <br/><br/>
+<img alt="attached screenshot of passed materials - Webpage navigation" src="1_advanced_front-end_course/img_final_scrn/adv_f-e_crs/sections_6+/16-1.jpg" 
+width="60%">
+<br/><br/>
 
 * Practicing SASS
 | Menu with SASS
 | Menu with SCSS
 
 - - -
+
+### 2. JavaScript Programming Course.  
+### [PL: Programowanie w JavaScript.
+### Od podstaw do programowania zorientowanego obiektowo.]
+
+- - -
+In progress..
