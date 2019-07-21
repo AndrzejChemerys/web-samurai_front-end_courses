@@ -17,6 +17,7 @@ class App extends React.Component {
             text: this.state.text + letter
         })
     }
+    
     render() {
         return (
             <React.Fragment>
