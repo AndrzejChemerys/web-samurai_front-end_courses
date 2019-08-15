@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //#############
+        // Arrays recap
+        //#############    
+
+        //join()
+        const users = ["andy", "anna", "laura"];
+        const usersString=users.join(' ');
+        console.log(usersString);
+
+        //concat()
+        const newUser = "Konrad";
+        const allUsers = users.concat(newUser);
+        console.log(allUsers);
+        console.log(users);
+
+        //spread()
+        const allUsers2=[...users, "Alyss"]
+        console.log(allUsers2);
+
+        //map()
+        const usersFirstLetterToUpperCase=users.map(user=>user[0].toUpperCase())
+        console.log(usersFirstLetterToUpperCase);
+
+        const numbers = [2, 3, 4]
+        const doubleNumber = numbers.map(number => number * 2)
+        console.log(doubleNumber);
+        
+        //forEach()
+        const usersAge=[20, 21, 23, 43];
+        usersAge.forEach(age=>console.log(`In the next year user will be ${age+1} years old`))
+
+        let usersTotalAge = 0;
+        usersAge.forEach(age=>usersTotalAge+=age);
+        console.log(usersTotalAge);
+
+        const section = document.createElement('section')
+
+        usersAge.forEach((age, index, array) => {
+            section.innerHTML += (
+                `<h1> User ${index + 1}</h1>
+                <p>years old: ${age}</p>`
+            )
+            if (index === array.length-1) {
+                document.body.appendChild(section);
+            }
+        })
+    </script>
+</body>
+</html>
