@@ -29,6 +29,32 @@
 
         const fn = item => console.log ('Input element is'+item)
         fn('Hej!')
+        
+        const fn = item => {
+            return console.log ('Input element is'+item)
+        }
+        fn('Hej!')
+
+
+        const fn = (item, item2) => {
+            return `Input argument is: ${item} and ${item2}`
+        }
+        const result = fn("Hej!", "Ho!")
+
+        const fn = (item, item2) => (
+            `Podany argument to: ${item} i ${item2}`
+        )
+        const result = fn('Hej!', 'Ho!')
+
+        //
+
+        const btn = document.querySelector('button');
+        btn.addEventListener('click', ()=>console.log(this));
+
+        const btn = document.querySelector('button')
+        btn.addEventListener('click', function() {
+            console.log(this)
+        })
 
     </script>
 </body>
