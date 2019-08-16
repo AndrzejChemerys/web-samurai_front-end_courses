@@ -13,7 +13,7 @@
         //#############    
 
         //join()
-        const users = ["andy", "anna", "laura"];
+        const users = ["andy", "anna", "laura", "kornelia", "andrii"];
         const usersString=users.join(' ');
         console.log(usersString);
 
@@ -54,6 +54,36 @@
                 document.body.appendChild(section);
             }
         })
+
+        //filter()
+        const NameWith6Letter=users.filter(user=>user.length===6)
+        console.log(NameWith6Letter);
+
+        const NameWithLetterK=users.filter((user)=>{
+            return(
+                user.indexOf('k') > -1
+            )
+        })
+        console.log(NameWithLetterK);
+
+        //findIndex()
+
+        const customers = [
+            {name: "Adam", age:67},
+            {name: "Basia", age:25},
+            {name: "Marta", age:17},
+        ];
+
+        const isUsersAdult=customers.findIndex(customer=>customer.age<18)
+        console.log(isUsersAdult); //2
+
+        //find()
+
+        const firstAdultUser = customers.find(customer=>customer.age>=18)
+        console.log(firstAdultUser);
+
+        
+
     </script>
 </body>
 </html>
