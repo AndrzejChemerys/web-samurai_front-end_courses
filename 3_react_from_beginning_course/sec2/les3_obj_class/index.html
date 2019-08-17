@@ -23,8 +23,29 @@
              }
          }
         
-         const poland = new Country ('Polska', 'Warsaw', 39000000);
+         const Poland = new Country ('Polska', 'Warsaw', 39000000);
          
+         class Country2 {
+             constructor(name){
+                 this.name=name;
+                 this.showName=()=>console.log(this.name);
+             }
+
+             showCountryName() {
+                 console.log(`Country is ${this.name}`)
+             }
+         }
+
+         const Ukraine = new Country2('Ukraine');
+         const Italy = new Country2('Italy');
+
+         Ukraine.showCountryName();
+         Italy.showCountryName();
+         Ukraine.showName();
+         Italy.showName();
+
+
+
 
     </script>
 </body>
