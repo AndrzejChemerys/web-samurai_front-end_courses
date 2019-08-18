@@ -8,6 +8,11 @@
 </head>
 <body>
     <script>
+
+        //###########
+        //class
+        //###########
+
         class City {
 
         }   
@@ -44,8 +49,33 @@
          Ukraine.showName();
          Italy.showName();
 
+         //###########
+         //inheritance
+         //###########
 
+         class Person {
+             constructor(name) {
+                 this.name=name;
+             }
+             showName(){
+                 console.log(`Person name is ${this.name}`);
+             }
+         }
 
+         class Student extends Person {
+             constructor(name="", degrees=[]) {
+                 super(name)
+                 this.degrees=degrees
+             }
+
+             showDegrees(){
+                 const completed=this.degrees.filter(degree=>degree>2)
+                 console.log(`Student ${this.name} has ${this.degrees} and passed ${(completed.length)} subjects`);
+             }
+         }
+
+         const Janek = new Student('Adam', [2,3,4,5,2,3])
+         Janek.showDegrees()
 
     </script>
 </body>
