@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //####
+        //this
+        //####
+
+        "use strict"
+        const fn = function() {
+            console.log(this);
+        }
+        fn()
+
+        //
+
+        const car = {
+            brand: 'opel',
+            age: 2019,
+            showAge(){
+                console.log(`samochod z ${this.age}`);
+            },
+            showBrand:()=>{
+                console.log(`samochod marki ${this.brand}`);
+            }
+        }
+
+        car.showAge()
+        car.showBrand()
+
+        //this problem1
+
+        const dog={
+            name: 'rocky',
+            showName(){
+                console.log('Dog name '+ this.name);
+            }
+        }
+
+        dog.showName()
+
+        const dogName=dog.showName
+        dogName()
+
+        //this problem2
+        
+        const cat = {
+            kids: ['lucek', 'lapciuch'],
+            showKidsNames(){
+                console.log(`kot ma potompstwo: ${this.kids}`);
+                const showKidsNumber=function(){
+                    console.log(this.kids.length);
+                }
+                showKidsNumber()
+            }
+        }
+
+        cat.showKidsNames()
+
+
+
+
+    </script>
+</body>
+</html>
