@@ -6,18 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
-    
-    <main>
-        <nav>
+<body class="page">
 
-        </nav>
-        <section>
-
-        </section>
-    </main>
-    <footer>
-
+    <header class="banner page__header">
+        <img src="" alt="" class="banner__image">
+        <h1 class="banner__title banner__title--large">Slogan big</h1>
+        <h2 class="banner__title banner__title--medium">Slogan small</h2>
+        <button class="button banner__btn button--large">Enter</button>
+    </header>
+    <nav class="menu">
+        <div class="logo">
+            <img src="" alt="" class="logo__image">
+            <span class="logo__name">Firm</span>
+        </div>
+        <ul class="menu__list">
+            <li class="menu__item menu__item--active"><a href="" class="menu__link"></a></li>
+            <li class="menu__item"><a href="" class="menu__link"></a></li>
+            <li class="menu__item"><a href="" class="menu__link"></a></li>
+            <li class="menu__item"><a href="" class="menu__link"></a></li>
+        </ul>
+    </nav>
+    <section class="articles page__articles">
+        <form class="search" action="">
+            <input class="search__input" type="text">
+            <button class="button search__button button--italic" type="submit">Search</button>
+        </form>
+        <article class="article">
+            <h1 class="article__title">Article title</h1>
+            <div class="article__info">
+                <span class="article__publication-date">2019-09-10</span>
+                <span class="article__author">AC</span>
+            </div>
+            <p class="text article__text">lorem...</p>
+            <h2 class="article__subtitle">Semititle</h2>
+            <p class="article__text">lorem...</p>
+            <button class="button article__btn">Read more</button>
+        </article>
+    </section>
+    <footer class="footer page__footer">
+        <p class="footer__copyright-info">Copyright</p>
+        <address class="footer__address-info"></address>
     </footer>
+
 </body>
 </html>
