@@ -16,6 +16,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const direction = event.wheelDelta < 0 ? 1 : -1;
         console.log(event.wheelDelta)
+
+        scroll(direction);
+    })
+
+    function scroll(direction){
         if (direction === 1) {
             const isLastSection = currentSectionIndex === sections.length - 1;
             if (isLastSection) return;
@@ -26,9 +31,13 @@ document.addEventListener('DOMContentLoaded', function () {
         currentSectionIndex = currentSectionIndex + direction;
         console.log(currentSectionIndex);
 
+        scrollToCurrentSection();
+    }
+
+    function scrollToCurrentSection(){
         sections[currentSectionIndex].scrollIntoView({
             behavior: 'smooth',
             block: 'start'
         })
-    })
+    }
 })
