@@ -1,15 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
     console.log('Hello world!');
 
-    const rootElement = document.querySelector('#root');
-    const sections = document.querySelectorAll('section');
-    let currentSectionIndex = 0;
-    let isThrottled = false;
-
-    document.addEventListener('mousewheel', function (event) {
-        
-    })
-
+    const scroller = new Scroller('#root');
+    console.log(scroller)
+ 
+    document.addEventListener('mousewheel', scroller.listenScroll)
+ 
     function scroll(direction) {
         if (direction === 1) {
             const isLastSection = currentSectionIndex === sections.length - 1;
