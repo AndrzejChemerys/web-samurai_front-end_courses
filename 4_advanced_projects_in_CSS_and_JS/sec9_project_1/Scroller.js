@@ -12,13 +12,6 @@ class Scroller {
         this.isThrottled = true;
 
         setTimeout(function () {
-            this.isThrottled = false;
-        }, 1000);
-
-        const direction = event.wheelDelta < 0 ? 1 : -1;
-        console.log(event.wheelDelta) 
-
-        // scroll(direction);
 
         scroll = (direction) => {
             console.log(this.section)
@@ -34,5 +27,14 @@ class Scroller {
     
             scrollToCurrentSection();
         }
+
+        scrollToCurrentSection = () => {
+            this.sections[currentSectionIndex].scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
+        }
     }
+
+    
 }
