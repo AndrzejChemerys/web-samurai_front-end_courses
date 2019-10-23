@@ -7,6 +7,11 @@ class Scroller {
         this.isThrottled = false;
     }
 
+    isScrolledIntoView(el) {
+        const rect = el.getBoundingClientRect();
+        console.log(rect)
+    }
+
     listenScroll = () => {
         if (this.isThrottled) return;
         this.isThrottled = true;
