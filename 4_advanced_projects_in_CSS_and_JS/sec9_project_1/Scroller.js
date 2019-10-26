@@ -5,6 +5,8 @@ class Scroller {
         this.sections = document.querySelectorAll('section');
         this.currentSectionIndex = 0;
         this.isThrottled = false;
+
+        this.isScrolledIntoView(this.sections[0]);
     }
 
     isScrolledIntoView(el) {
