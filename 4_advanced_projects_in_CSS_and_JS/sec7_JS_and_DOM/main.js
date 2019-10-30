@@ -27,3 +27,21 @@ const searchElements = (event, nameElement) => {
   }
 
 }
+
+const showInfo = (elements, infoElement) => {
+  console.log(elements);
+  elements.forEach(element => {
+    const item = document.createElement('div');
+    item.className = 'result__element-description';
+    item.innerHTML = `
+    <div>${element.nodeName}</div>
+    <div>klasa/klasy: ${element.className}</div>
+    <div>Wysokośc elementu (offsetHeight): ${element.offsetHeight}</div>
+    <div>Szerokość elementu (offsetWidth): ${element.offsetWidth}</div>
+    <div>Odległość od lewej krawędzi (offsetLeft): ${element.offsetLeft}</div>
+    <div>Odległość od górnej krawędzi (offsetTop): ${element.offsetTop}</div>
+    <div>Liczba elementów dzieci (childElementCount): ${element.childElementCount}</div>
+    `;
+    infoElement.appendChild(item);
+  })
+};
