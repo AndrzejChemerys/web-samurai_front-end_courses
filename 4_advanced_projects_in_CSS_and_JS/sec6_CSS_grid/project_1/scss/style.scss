@@ -21,3 +21,26 @@ body {
     grid-row-end: 2;
     background-color: rgb(151, 85, 85);
 }
+
+.search {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rbg(30,28,133);
+}
+
+.menu {
+    grid-column: -1/-2;
+    grid-row: 1;
+    background-color: rbg(221, 208, 25);
+}
+
+.gallery {
+    grid-column: 1/-1;
+    grid-row: 2;
+    background-color: rgb(123, 148, 202);
+}
+
+.contact {
+    grid-area: 3/1/4/4;
+    background-color: rgb(25, 161, 120);
+}
