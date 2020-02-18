@@ -7,7 +7,12 @@ body {
     display: grid;
     grid-template-columns: minmax(120px, 200px) minmax(240px, 1fr) 80px;
     grid-template-rows: auto 1fr auto auto;
-
+    grid-template-areas: 
+    'logotype search hamburger'
+    'images images images'
+    'contact contact contact'
+    'footer1 footer1 footer1'
+    ;
     //kontener
     min-height: 100vh;
     max-height: 1240px;
@@ -43,4 +48,9 @@ body {
 .contact {
     grid-area: 3/1/4/4;
     background-color: rgb(25, 161, 120);
+}
+
+.footer {
+    grid-area: footer1;
+    background-color: rgb(77, 22, 21);
 }
