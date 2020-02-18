@@ -13,6 +13,19 @@ body {
     'contact contact contact'
     'footer1 footer1 footer1'
     ;
+
+    @media (nim-width: 1024px) {
+        grid-template-columns: minmax(300px, auto) 1fr;
+        grid-template-rows: auto auto auto 1fr auto auto;
+        grid-template-areas: 
+        'logotype images'
+        'menu images'
+        'search images'
+        '. images'
+        'contact images'
+        'footer footer';
+    }
+
     //kontener
     min-height: 100vh;
     max-height: 1240px;
@@ -20,17 +33,26 @@ body {
 }
 
 .logo {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    // grid-column-start: 1;
+    // grid-column-end: 2;
+    // grid-row-start: 1;
+    // grid-row-end: 2;
+    grid-area: logotype;
     background-color: rgb(151, 85, 85);
+    height: 100px;
+    // @media (min-width: 1024px){
+    //     grid-area: logotype;
+    // }
 }
 
 .search {
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: rbg(30,28,133);
+    @media (min-width: 1024px){
+        grid-area: search;
+        min-height: 80px;
+    }
 }
 
 .menu {
