@@ -4,13 +4,10 @@ const Header = () => {
     return<h1>Pierwszy komponent</h1>
 }
 
-
-
-class App2 extends React.Component {
+class Blog extends React.Component {
 
     state={
-        number: 0,
-        
+        number: 0,   
     }
 
     render(){
