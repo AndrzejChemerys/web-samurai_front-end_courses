@@ -6,7 +6,7 @@ const handleClick = () => alert("klik!")
 
 const main = (
     <div>
-        <h1 onClick={function(){alert("kliknął")}} className="red">Pierszy Artykuł</h1>
+        <h1 onClick={handleClick} className="red">Pierszy Artykuł</h1>
         <p>Lorem impsum</p>
     </div>
 )
@@ -23,4 +23,3 @@ const footer = (
 const app = [header, main, footer]
 
 ReactDOM.render(app, document.getElementById('root'));
-
