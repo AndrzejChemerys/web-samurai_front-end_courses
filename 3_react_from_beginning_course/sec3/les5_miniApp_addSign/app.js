@@ -10,7 +10,6 @@ class App extends React.Component {
     handleClick = () => {
         // this.state.text+="a";
         // console.log(this.state.text);
-
         const letter = "a"
 
         this.setState({
@@ -20,7 +19,7 @@ class App extends React.Component {
     
     render() {
         return (
-            <React.Fragment>
+            <React.Fragment> 
                 <button onClick={this.handleClick}>Dodaj A</button>
                 <h1>{this.state.text}</h1>
             </React.Fragment>

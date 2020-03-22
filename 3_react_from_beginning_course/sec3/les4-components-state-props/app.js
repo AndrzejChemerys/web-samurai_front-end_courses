@@ -9,12 +9,12 @@ class ShoppingList extends RTCIceCandidate.Component {
     render () {
         return(
             <>
-            <h1>Lista zakupów</h1>
-            <ul>
-                <ItemList name={this.state.items1} example={2+2}/>
-                <ItemList name={this.state.items2}/>
-                <ItemList name={this.state.items3}/>
-            </ul>
+                <h1>Lista zakupów</h1>
+                <ul>
+                    <ItemList name={this.state.items1}/>
+                    <ItemList name={this.state.items2}/>
+                    <ItemList name={this.state.items3}/>
+                </ul>
             </>
         )
     }
