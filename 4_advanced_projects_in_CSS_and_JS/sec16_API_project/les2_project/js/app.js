@@ -12,7 +12,13 @@ function getRandomImage() {
         .then(data => data.message);
 }
 
+function getRandomImageByBreed(breed) {
+    return fetch(`${this.apiUrl}/breed/${breed}/images/random`)
+        .then(resp => resp.json())
+        .then(data => data.message);
+}
+
 const imgTag = document.querySelector('img');
 
-getRandomImage()
+getRandomImageByBreed('boxer')
     .then(imgSrc => imgTag.setAttribute('src', imgSrc));
