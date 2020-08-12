@@ -1,5 +1,6 @@
 @import "reset";
-
-body {
-    background-color: red;
-}
+@import "typography";
+@import "base";
+@import "featured-dog";
+@import "tiles";
+@import "spinner";
