@@ -11,14 +11,22 @@ class Doggo {
         this.init();
     }
 
+    showLoading() {
+        this.spinnerEl.classList.add('spinner--visible');
+    }
+
+    hideLoading() {
+        this.spinnerEl.classList.remove('spinner--visible');
+    }
+
     listBreeds() {
-        fetch('https://dog.ceo/api/breeds/list/all')
+        return fetch(`${this.apiUrl}/breeds/list/all`)
             .then(resp => resp.json())
             .then(data => data.message);
     }
 
     getRandomImage() {
-        return fetch('https://dog.ceo/api/breeds/image/random')
+        return fetch(`${this.apiUrl}/breeds/image/random`)
             .then(resp => resp.json())
             .then(data => data.message);
     }
@@ -29,9 +37,66 @@ class Doggo {
             .then(data => data.message);
     }
 
-    const imgTag = document.querySelector('img');
+    init() {
+        this.showLoading();
+        this.getRandomImage()
+            .then(img => this.showImageWhenReady(img));
 
-    getRandomImageByBreed('boxer')
-        .then(imgSrc => imgTag.setAttribute('src', imgSrc));
+        this.showAllBreeds();
+    }
 
+    showImageWhenReady(image) {
+        this.imgEl.setAttribute('src', image);
+        this.backgroundEl.style.background = `url("${image}")`;
+        this.hideLoading();
+    }
+
+    addBreed(breed, subBreed) {
+        let name;
+        let type;
+
+        if (typeof subBreed === 'undefined') {
+            name = breed;
+            type = breed;
+        } else {
+            name = `${breed} ${subBreed}`;
+            type = `${breed}/${subBreed}`;
+        }
+
+        const tile = document.createElement('div');
+        tile.classList.add('tiles__tile');
+
+        const tileContent = document.createElement('div');
+        tileContent.classList.add('tiles__tile-content');
+
+        tileContent.innerText = name;
+        tileContent.addEventListener('click', () => {
+            window.scrollTo(0, 0);
+            this.showLoading();
+            this.getRandomImageByBreed(type)
+                .then(img => this.showImageWhenReady(img));
+        });
+
+        tile.appendChild(tileContent);
+        this.tilesEl.appendChild(tile);
+    }
+
+    showAllBreeds() {
+        this.listBreeds()
+            .then(breeds => {
+                for (const breed in breeds) {
+                    if (breeds[breed].length === 0) {
+                        this.addBreed(breed);
+                    } else {
+                        for (const subBreed of breeds[breed]) {
+                            this.addBreed(breed, subBreed);
+                        }
+                    }
+                }
+            });
+    }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    new Doggo();
+});
