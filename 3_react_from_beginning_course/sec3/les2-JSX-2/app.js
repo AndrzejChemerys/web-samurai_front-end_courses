@@ -7,7 +7,7 @@ const handleClick = () => alert("klik!")
 const main = (
     <div>
         <h1 onClick={handleClick} className="red">Pierszy Artykuł</h1>
-        <p>Lorem impsum</p>
+        <p>Lorem ipsum </p>
     </div>
 )
 

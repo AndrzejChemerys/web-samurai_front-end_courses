@@ -1,4 +1,4 @@
-class ShoppingList extends RTCIceCandidate.Component {
+class ShoppingList extends React.Component {
 
     state= {
         items1: 'tomatos',
@@ -11,7 +11,7 @@ class ShoppingList extends RTCIceCandidate.Component {
             <>
                 <h1>Lista zakupów</h1>
                 <ul>
-                    <ItemList name={this.state.items1}/>
+                    <ItemList name={this.state.items1} example={2+2}/>
                     <ItemList name={this.state.items2}/>
                     <ItemList name={this.state.items3}/>
                 </ul>
@@ -20,8 +20,18 @@ class ShoppingList extends RTCIceCandidate.Component {
     }
 }
 
-const ItemList = (props) => {
-    return (
-        <li>{this.props.name}-{this.props.example}</li>
-    )
+// const ItemList = (props) => {
+//     return (
+//         <li>{props.name} - {props.example}</li>
+//     )
+// }
+
+class ItemList extends React.Component {
+    render() {
+        return (
+             <li>{this.props.name} - {this.props.example}</li>
+        )
+    }
 }
+
+ReactDOM.render(<ShoppingList/>, document.getElementById('root'))
