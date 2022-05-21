@@ -1,5 +1,19 @@
-const PositiveMessage = () => <p>Mozesz obejrzec film. Zapraszamy!</p>;
-const NegativeMessage = () => <p>Nie możesz obejrzeć tego filmu jeśli masz mniej niż 16 lat!</p>;
+// const PositiveMessage = () => <p>Mozesz obejrzec film. Zapraszamy!</p>;
+// const NegativeMessage = () => <p>Nie możesz obejrzeć tego filmu jeśli masz mniej niż 16 lat!</p>;
+
+const displayMessage = (isConfirmed, isFormSubmitted) => {
+  if (isFormSubmitted) {
+    if (isConfirmed) {
+      return <ValidationMessage txt="jest ok" />;
+    } else {
+      return <ValidationMessage txt="nie jest ok" />;
+    }
+  } else {
+    return null;
+  }
+};
+
+const ValidationMessage = (props) => <p>It works! {props.txt}</p>;
 
 class TicketShop extends React.Component {
   state = {
@@ -23,19 +37,22 @@ class TicketShop extends React.Component {
     }
   };
 
-  displayMessage = () => {
-    if (this.state.isFormSubmitted) {
-      if (this.state.isConfirmed) {
-        return <PositiveMessage />;
-      } else {
-        return <NegativeMessage />;
-      }
-    } else {
-      return null;
-    }
-  };
+  // displayMessage = () => {
+  //   if (this.state.isFormSubmitted) {
+  //     if (this.state.isConfirmed) {
+  //       return <ValidationMessage txt="jest ok" />;
+  //     } else {
+  //       return <ValidationMessage txt="nie jest ok" />;
+  //     }
+  //   } else {
+  //     return null;
+  //   }
+  // };
 
   render() {
+    const { isConfirmed, isFormSubmitted } = this.state;
+    console.log(isConfirmed);
+
     return (
       <>
         <h1>Kup bilet na horror roku!</h1>
@@ -49,7 +66,7 @@ class TicketShop extends React.Component {
           <label htmlFor="age">Mam co najmniej 16 lata</label>
           <br />
           <button type="submit">Kup bilet</button>
-          {this.displayMessage()}
+          {displayMessage(isConfirmed, isFormSubmitted)}
         </form>
       </>
     );
