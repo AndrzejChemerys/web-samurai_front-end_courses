@@ -1,14 +1,14 @@
+const Item = (props) => <li>{`owoc ${props.content}`}</li>;
+
 class ListItems extends React.Component {
   state = {
-    items: ["jabłko", "sliwka", "gruszka"]
-  }
+    items: ["jabłko", "sliwka", "gruszka"],
+  };
   render() {
-    return (
-      <ul>
-        {this.state.items.map(item => <li key={item}>{`owoc ${item}`}</li>)}
-      </ul>
-    )
+    const Items = this.state.items.map((item) => <Item content={item} />);
+
+    return <ul>{Items}</ul>;
   }
 }
 
-ReactDOM.render(<ListItems />, document.getElementById('root'))
+ReactDOM.render(<ListItems />, document.getElementById("root"));
