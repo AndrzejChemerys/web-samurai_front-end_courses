@@ -10,6 +10,8 @@ const Cash = (props) => {
 class Exchange extends React.Component {
   state = {
     amount: "",
+    ratioEuro: 4.0,
+    ratioDollar: 3.5,
   };
 
   currencies = [
@@ -28,7 +30,7 @@ class Exchange extends React.Component {
     {
       id: 3,
       name: "pound",
-      ratio: 4.5,
+      ratio: 4.55,
       title: "Wartość w funtach:",
     },
   ];
@@ -41,13 +43,7 @@ class Exchange extends React.Component {
     const amount = this.state.amount;
 
     const calculators = this.currencies.map((currency) => (
-      <Cash
-        key={currency.id}
-        name={currency.name}
-        title={currency.title}
-        ratio={currency.ratio}
-        cash={amount}
-      />
+      <Cash key={currency.id} ratio={currency.ratio} title={currency.title} cash={amount} />
     ));
 
     return (
