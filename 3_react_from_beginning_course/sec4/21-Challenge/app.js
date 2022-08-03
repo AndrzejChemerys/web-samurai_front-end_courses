@@ -20,8 +20,9 @@ class Draw extends React.Component {
 
   handleAddOption = () => {
     if (this.state.value === "") return alert("Wpisz coś!");
-    const omens = [...this.state.omens];
-    omens.push(this.state.value);
+    // const omens = [...this.state.omens];
+    // omens.push(this.state.value);
+    const omens = this.state.omens.concat(this.state.value);
     this.setState({
       omens,
     });
