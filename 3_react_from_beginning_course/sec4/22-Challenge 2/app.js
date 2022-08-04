@@ -17,31 +17,43 @@ class List extends React.Component {
     ],
   };
 
-  handleDelete = (id) => {
-    // console.log(this, id);
-    const people = [...this.state.people];
-    const index = people.findIndex((person) => person.id === id);
-    console.log(index);
-    console.log(people);
-    people.splice(index, 1);
+  // handleDelete = (id) => {
+  //   // console.log(this, id);
+  //   const people = [...this.state.people];
+  //   const index = people.findIndex((person) => person.id === id);
+  //   // console.log(index);
+  //   // console.log(people);
+  //   people.splice(index, 1);
+  //   // console.log(people);
+  //   this.setState({
+  //     people,
+  //   });
+  // };
+
+  handleDelete(name) {
+    // let people = Array.from(this.state.people);
+    let people = this.state.people.slice();
+    console.log(name);
+    people = people.filter((person) => name !== person.name);
     console.log(people);
     this.setState({
       people,
     });
-  };
+  }
 
   render() {
-    return (
-      <ul>
-        {this.state.people.map((person) => (
-          <Person
-            key={person.id}
-            name={person.name}
-            delete={this.handleDelete.bind(this, person.id)}
-          />
-        ))}
-      </ul>
-    );
+    const people = this.state.people.map((person) => (
+      <Person
+        key={person.id}
+        name={person.name}
+        delete={this.handleDelete.bind(this, person.name)}
+      />
+    ));
+    // const people = this.state.people.map((person) => (
+    //   <Person key={person.id} name={person.name} delete={this.handleDelete.bind(this, person.id)} />
+    // ));
+
+    return <ul>{people}</ul>;
   }
 }
 
