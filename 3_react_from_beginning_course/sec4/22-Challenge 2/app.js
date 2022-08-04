@@ -1,8 +1,17 @@
+// const Person = (props) => {
+//   return (
+//     <li>
+//       <span>{props.name}</span>
+//       <button onClick={props.delete}>Delete</button>
+//     </li>
+//   );
+// };
+
 const Person = (props) => {
   return (
     <li>
       <span>{props.name}</span>
-      <button onClick={props.delete}>Delete</button>
+      <button onClick={() => props.delete(props.name)}>Delete</button>
     </li>
   );
 };
@@ -30,7 +39,7 @@ class List extends React.Component {
   //   });
   // };
 
-  handleDelete(name) {
+  handleDelete = (name) => {
     // let people = Array.from(this.state.people);
     let people = this.state.people.slice();
     console.log(name);
@@ -39,16 +48,21 @@ class List extends React.Component {
     this.setState({
       people,
     });
-  }
+  };
 
   render() {
     const people = this.state.people.map((person) => (
-      <Person
-        key={person.id}
-        name={person.name}
-        delete={this.handleDelete.bind(this, person.name)}
-      />
+      <Person key={person.id} name={person.name} delete={this.handleDelete} />
     ));
+
+    // const people = this.state.people.map((person) => (
+    //   <Person
+    //     key={person.id}
+    //     name={person.name}
+    //     delete={this.handleDelete.bind(this, person.name)}
+    //   />
+    // ));
+
     // const people = this.state.people.map((person) => (
     //   <Person key={person.id} name={person.name} delete={this.handleDelete.bind(this, person.id)} />
     // ));
