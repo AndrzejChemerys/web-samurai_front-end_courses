@@ -53,6 +53,7 @@ class App extends Component {
         email: "",
         pass: "",
         accept: false,
+        message: "Form Send",
 
         errors: {
           username: false,
@@ -65,10 +66,10 @@ class App extends Component {
     } else {
       this.setState({
         errors: {
-          username: false,
-          email: false,
-          pass: false,
-          accept: false,
+          username: !validation.username,
+          email: !validation.email,
+          pass: !validation.password,
+          accept: !validation.accept,
         },
       });
     }
@@ -111,6 +112,18 @@ class App extends Component {
       accept,
     };
   };
+
+  componentDidUpdate() {
+    if (this.state.message !== "") {
+      setTimeout(
+        () =>
+          this.setState({
+            message: "",
+          }),
+        3000
+      );
+    }
+  }
 
   render() {
     return (
@@ -168,6 +181,8 @@ class App extends Component {
 
           <button>Save</button>
         </form>
+
+        {this.state.message && <h3>{this.state.message}</h3>}
       </div>
     );
   }
