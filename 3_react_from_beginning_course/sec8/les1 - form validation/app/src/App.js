@@ -43,7 +43,73 @@ class App extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log("It works!");
+
+    const validation = this.formValidation();
+    console.log(validation);
+
+    if (validation.correct) {
+      this.setState({
+        username: "",
+        email: "",
+        pass: "",
+        accept: false,
+
+        errors: {
+          username: false,
+          email: false,
+          pass: false,
+          accept: false,
+        },
+      });
+      console.log("Form Send");
+    } else {
+      this.setState({
+        errors: {
+          username: false,
+          email: false,
+          pass: false,
+          accept: false,
+        },
+      });
+    }
+  };
+
+  formValidation = () => {
+    // true - ok
+    // false - zle
+    let username = false;
+    let email = false;
+    let password = false;
+    let accept = false;
+    let correct = false;
+
+    if (this.state.username.length > 10 && this.state.username.indexOf(" ") === -1) {
+      username = true;
+    }
+
+    if (this.state.email.indexOf("@") !== -1) {
+      email = true;
+    }
+
+    if (this.state.pass.length === 8) {
+      password = true;
+    }
+
+    if (this.state.accept) {
+      accept = true;
+    }
+
+    if (username && email && password && accept) {
+      correct = true;
+    }
+
+    return {
+      correct,
+      username,
+      email,
+      password,
+      accept,
+    };
   };
 
   render() {
