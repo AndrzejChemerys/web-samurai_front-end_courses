@@ -35,6 +35,16 @@ class App extends Component {
 
   deleteTask = (id) => {
     console.log("delete w app component" + id);
+    const tasks = [...this.state.tasks];
+    console.log(tasks);
+    const index = tasks.findIndex((task) => task.id === id); //-1;
+    console.log(index);
+    const deleteTask = tasks.splice(index, 1);
+    console.log(deleteTask);
+
+    this.setState({
+      tasks: tasks,
+    });
   };
 
   changeTaskStatus = (id) => {
