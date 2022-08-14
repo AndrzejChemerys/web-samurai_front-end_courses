@@ -7,6 +7,20 @@ class App extends Component {
     email: "",
     pass: "",
     accept: false,
+
+    errors: {
+      username: false,
+      email: false,
+      pass: false,
+      accept: false,
+    },
+  };
+
+  messages = {
+    username_incorrect: "Name shopuld be longer than 10 and can't have spaces",
+    email_incorrect: "There is no @ w emailu",
+    password_incorrect: "Password should have 8 letters",
+    accept_incorrect: "Not accepted",
   };
 
   handleChange = (e) => {
@@ -45,6 +59,9 @@ class App extends Component {
               value={this.state.username}
               onChange={this.handleChange}
             />
+            <span>
+              {this.state.errors.username && <span>{this.messages.username_incorrect}</span>}
+            </span>
           </label>
 
           <label htmlFor="email">
@@ -56,6 +73,7 @@ class App extends Component {
               value={this.state.email}
               onChange={this.handleChange}
             />
+            <span>{this.state.errors.email && <span>{this.messages.email_incorrect}</span>}</span>
           </label>
 
           <label htmlFor="password">
@@ -67,6 +85,7 @@ class App extends Component {
               value={this.state.pass}
               onChange={this.handleChange}
             />
+            <span>{this.state.errors.pass && <span>{this.messages.password_incorrect}</span>}</span>
           </label>
 
           <label htmlFor="accept">
@@ -79,6 +98,7 @@ class App extends Component {
             />{" "}
             I accept everything
           </label>
+          <span>{this.state.errors.accept && <span>{this.messages.accept_incorrect}</span>}</span>
 
           <button>Save</button>
         </form>
