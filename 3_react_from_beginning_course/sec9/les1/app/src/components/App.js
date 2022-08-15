@@ -35,12 +35,17 @@ class App extends Component {
 
   deleteTask = (id) => {
     console.log("delete w app component" + id);
-    const tasks = [...this.state.tasks];
+    // const tasks = [...this.state.tasks];
+    // console.log(tasks);
+    // const index = tasks.findIndex((task) => task.id === id); //-1;
+    // console.log(index);
+    // const deleteTask = tasks.splice(index, 1);
+    // console.log(deleteTask);
+
+    let tasks = [...this.state.tasks];
+    tasks = tasks.filter((task) => task.id !== id);
+
     console.log(tasks);
-    const index = tasks.findIndex((task) => task.id === id); //-1;
-    console.log(index);
-    const deleteTask = tasks.splice(index, 1);
-    console.log(deleteTask);
 
     this.setState({
       tasks: tasks,
@@ -49,6 +54,17 @@ class App extends Component {
 
   changeTaskStatus = (id) => {
     console.log("change w app component" + id);
+
+    const tasks = Array.from(this.state.tasks);
+    tasks.forEach((task) => {
+      if (task.id === id) {
+        task.active = false;
+        task.finishDate = new Date().getTime();
+      }
+    });
+    this.setState({
+      tasks,
+    });
   };
 
   render() {
