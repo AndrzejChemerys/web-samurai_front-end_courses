@@ -10,21 +10,60 @@ class AddTask extends Component {
     date: this.minDate,
   };
 
+  handleText = (e) => {
+    this.setState({
+      text: e.target.value,
+    });
+  };
+
+  handleCheckbox = (e) => {
+    this.setState({
+      checked: e.target.cheked,
+    });
+  };
+
   handleDate = (e) => {
     this.setState({
       date: e.target.value,
     });
   };
 
+  handleClick = () => {
+    console.log("Add");
+    const { text, checked, date } = this.state;
+    if (text.length > 2) {
+      const add = this.props.add(text, date, checked);
+      if (add) {
+        this.setState({
+          text: "",
+          checked: false,
+          date: this.minDate,
+        });
+      }
+    } else {
+      alert("too short");
+    }
+  };
+
   render() {
     let maxDate = this.minDate.slice(0, 4) * 1 + 1;
-    console.log(maxDate);
+    // console.log(maxDate);
     maxDate = maxDate + "-12-31";
 
     return (
       <div className="form">
-        <input type="text" placeholder="add task" value={this.state.text} />
-        <input type="checkbox" checked={this.state.checked} id="important" />
+        <input
+          type="text"
+          placeholder="add task"
+          value={this.state.text}
+          onChange={this.handleText}
+        />
+        <input
+          type="checkbox"
+          checked={this.state.checked}
+          id="important"
+          onChange={this.handleCheckbox}
+        />
         <label htmlFor="important">Priority</label>
         <br />
         <label htmlFor="date">TO be done by:</label>
@@ -36,7 +75,7 @@ class AddTask extends Component {
           onChange={this.handleDate}
         />
         <br />
-        <button>Add Task</button>
+        <button onClick={this.handleClick}>Add Task</button>
       </div>
     );
   }
