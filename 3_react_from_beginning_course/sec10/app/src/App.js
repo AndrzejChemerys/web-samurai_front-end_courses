@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+
+const Home = () => {
+  // console.log("rendering..");
+  return <h1>Starting page</h1>;
+};
+const News = () => <h1>News</h1>;
+const Contact = () => <h1>Contact</h1>;
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <div>
           <header>
             <nav>
@@ -31,9 +38,13 @@ class App extends Component {
               </ul>
             </nav>
           </header>
-          <section>Strona - hello!</section>
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/news" exact element={<News />} />
+            <Route path="/contact" exact element={<Contact />} />
+          </Routes>
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
